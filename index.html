@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curso Profissional de Programação - Escola Secundária Pinheiro e Rosa</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+.hero{
+    background:linear-gradient(135deg,#003366,#0055aa);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    max-width:800px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 35px;
+    background:#ffb400;
+    color:#000;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    color:#003366;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#0055aa;
+    margin-bottom:10px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th,
+table td{
+    border:1px solid #ddd;
+    padding:12px;
+}
+
+table th{
+    background:#003366;
+    color:white;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <h1>Programação e Informática</h1>
+    <p>
+        Desenvolve competências em programação, bases de dados,
+        redes informáticas e desenvolvimento de aplicações.
+    </p>
+    <a href="#inscricao" class="btn">Pré-Inscrição</a>
+</section>
+
+<section class="container">
+    <h2 class="section-title">Este Curso é para Ti se...</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Tecnologia</h3>
+            <p>Gostas de computadores e inovação.</p>
+        </div>
+
+        <div class="card">
+            <h3>Programação</h3>
+            <p>Tens interesse em criar aplicações e websites.</p>
+        </div>
+
+        <div class="card">
+            <h3>Resolução de Problemas</h3>
+            <p>Gostas de encontrar soluções para desafios complexos.</p>
+        </div>
+
+        <div class="card">
+            <h3>Trabalho em Equipa</h3>
+            <p>Gostas de colaborar em projetos tecnológicos.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <h2 class="section-title">Plano Curricular</h2>
+
+    <table>
+        <tr>
+            <th>Disciplina</th>
+            <th>Horas</th>
+        </tr>
+        <tr>
+            <td>Português</td>
+            <td>320</td>
+        </tr>
+        <tr>
+            <td>Inglês</td>
+            <td>220</td>
+        </tr>
+        <tr>
+            <td>Matemática</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>Programação</td>
+            <td>600</td>
+        </tr>
+        <tr>
+            <td>Redes Informáticas</td>
+            <td>175</td>
+        </tr>
+        <tr>
+            <td>Estágio FCT</td>
+            <td>600</td>
+        </tr>
+    </table>
+</section>
+
+<section class="container">
+    <h2 class="section-title">Saídas Profissionais</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Programador</h3>
+            <p>Desenvolvimento de software e aplicações.</p>
+        </div>
+
+        <div class="card">
+            <h3>Web Developer</h3>
+            <p>Criação e manutenção de websites.</p>
+        </div>
+
+        <div class="card">
+            <h3>Técnico de Informática</h3>
+            <p>Suporte e manutenção de sistemas.</p>
+        </div>
+
+        <div class="card">
+            <h3>Prosseguimento de Estudos</h3>
+            <p>Acesso ao ensino superior.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="inscricao">
+    <h2 class="section-title">Pré-Inscrição</h2>
+
+    <form>
+        <input type="text" placeholder="Nome Completo" style="width:100%;padding:15px;margin-bottom:15px;">
+        <input type="email" placeholder="Email" style="width:100%;padding:15px;margin-bottom:15px;">
+        <input type="tel" placeholder="Telefone" style="width:100%;padding:15px;margin-bottom:15px;">
+        <button class="btn">Enviar Candidatura</button>
+    </form>
+</section>
+
+<footer>
+    <h3>Escola Secundária Pinheiro e Rosa</h3>
+    <p>Faro • Ensino Secundário e Profissional</p>
+</footer>
+
+</body>
+</html>
